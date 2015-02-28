@@ -1,0 +1,181 @@
+h1 {
+	font-family: 'Kalam', cursive;
+	margin: 0 0 0 54px;
+	color: white;
+	font-size: 4.5em;
+}
+h2 {
+	font-family: 'Kalam', cursive;
+	color: black;
+	font-size: 3em;
+}
+h2 span {
+	color: red;
+}
+header {
+	height: 425px;
+	width: 100%;
+	background-color: rgb(18, 18, 18);
+	margin: 0 auto;
+}
+header .background-1{
+	height: 100%;
+	max-width: 1140px;
+	margin: 0 auto;
+	background-image: url("../img/photo-1.png");
+	overflow: hidden;
+	margin-bottom: 0;
+}
+#logo {
+	height: 120px;
+	background-color: rgba(0,0,0,.5);
+	max-width: 1140px;
+	margin: 0 auto;
+	border-image: url("../img/line.png") 30 30 round;
+	border-image-width: 5px;
+}
+#logo img {
+	float: left;
+	margin: 8px 0 0 54px
+}
+body{
+	background-color: rgb(18,18,18);
+}
+.menu {
+	height: auto - 20px;
+	max-width: 1140px;
+	margin: 0 auto;
+	background-color: rgb(64,64,65);
+}
+.menu h1 {
+	position: absolute;
+}
+.priceList li {
+	list-style: none;
+	display: inline;
+}
+.priceList img {
+	margin-top: -12px;
+	margin-left: 40px;
+	margin-bottom: -15px;
+}
+.priceList {
+	margin-left: 160px;
+	margin-bottom: 0px;
+}
+ul {
+	list-style: none;
+	margin-top: 0;
+	margin-left: 0;
+}
+.kitchen {
+	max-width: 1140px;
+	height: auto;
+	padding: 60px 0 10px 0;
+	margin: 0 auto;
+	background-image: url("../img/bg-texture.png");
+}
+.kitchen h2 {
+	text-align: center;
+}
+.gallery {
+	max-width: 1140px;
+	height: 600px;
+	padding: 40px 0 0 0;
+	margin: 0 auto;
+	background: white;
+	background-image: url("../img/bg-texture.png");
+}
+.center {
+	margin: 0 auto;
+	max-width: 960px;
+}
+.imageGallery div {
+	float: left;
+}
+.imageGallery div img {
+	width: 300px;
+	margin-bottom: 40px;
+}
+.centerImage {
+	margin: 0 30px 0 30px;
+}
+.top {
+	position: absolute;
+	opacity: 0;
+	transition: opacity 1s;
+}
+.top:hover {
+	opacity: 1;
+}
+.contact h1 {
+	position: absolute;
+}
+.contactList {
+	margin-left: 400px;
+}
+.contactList li {
+	display: inline;
+	padding-right: 60px;
+}
+.contactList img {
+	margin-top: -12px;
+	margin-bottom: -15px;
+}
+.contact {
+	height: auto - 20px;
+	max-width: 1140px;
+	margin: 0 auto;
+	background-color: rgb(64,64,65);
+}
+.contactInfo {
+	color: white;
+	line-height: 25px;
+	max-width: 1140px;
+	margin: 0 auto;
+	padding-left: 52px;
+}
+.phone {
+	margin: 80px 0 40px 0;
+	padding: 10px 0 0 80px;
+	height: 50px;
+	background-image: url("../img/bluespot.png");
+	background-repeat: no-repeat;
+	background-size: 4%;
+}
+.email {
+	margin-bottom: 40px;
+	padding: 10px 0 0 80px;
+	height: 50px;
+	background-image: url("../img/redspot.png");
+	background-repeat: no-repeat;
+	background-size: 4%;
+}
+.home {
+	margin-bottom: 80px;
+	padding: 10px 0 0 80px;
+	background-image: url("../img/greenspot.png");
+	background-repeat: no-repeat;
+	background-size: 4%;
+}
+.map {
+	height: 300px;
+	position: relative;
+	float: right;
+	padding-right: 52px;
+}
+footer {
+	max-width: 1140px;
+	margin: 0 auto;
+	height: 40px;
+	padding: 5px 0 0 52px;
+	color: white;
+	text-align: center;
+	background-color: rgb(64,64,65);
+}
+p {
+	font-size: 1.5em;
+}
+footer p {
+	font-size: 1em;
+}
